@@ -1,6 +1,6 @@
 {
-  "name": "v8-profiler-next",
-  "version": "1.9.0",
+  "name": "@demandio/v8-profiler-next",
+  "version": "1.9.0-dio.1",
   "description": "node bindings for the v8 profiler",
   "main": "dispatch.js",
   "binary": {
@@ -29,9 +29,12 @@
     "stability": "node scripts/stability.js",
     "autod": "autod"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyj1991/v8-profiler-next.git"
+    "url": "https://github.com/demandio/v8-profiler-next"
   },
   "keywords": [
     "node",
